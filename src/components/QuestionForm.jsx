@@ -43,12 +43,12 @@ export default function QuestionForm({formData,handleChange,handleSubmit,error,i
                />
             </div>
            {error ? (
-             <p className="p-4 border rounded-2xl text-red-500 text-sm mb-2">{error}</p>
+             <p className="p-4 border rounded-2xl text-red-500 text-sm mb-2"> ⚠️ {error}</p>
            ):""}
             <button 
             type="submit"
             disabled={isLoading}
-            className="bg-[#51E08A] text-[#000C36] font-bold rounded-xl w-full px-8 py-4 ">{isLoading ? <LoadingState/> : "Get Recommendation"}</button>
+            className="bg-[#51E08A] text-[#000C36] text-xl font-bold rounded-xl w-full px-8 py-4 ">{isLoading ? <LoadingState/> : "Get Recommendation"}</button>
          </form>
       </section>
    )
