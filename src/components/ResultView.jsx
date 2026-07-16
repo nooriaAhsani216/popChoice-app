@@ -8,7 +8,7 @@ export default function ResultView({ recommendation,onAgain }) {
       <Header/>
 
       <div className="bg-white/10 text-white rounded-2xl p-6 shadow-xl shadow-[#51E08A]/30">
-        <h1 className="text-2xl font-bold text-yellow-400">
+        <h1 className="text-2xl font-bold bg-gradient-to-r from-yellow-200 via-yellow-400 to-amber-600 bg-clip-text text-transparent">
           {movie.title} <span className="text-white">({movie.releaseYear})</span>
         </h1>
         <div className="mt-5">
