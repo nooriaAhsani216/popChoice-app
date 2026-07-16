@@ -23,7 +23,7 @@ npm run dev
 ![Questions View](./public/screenshots/questionform.png)
 ## Movie Output View
 
-![Movie Output View](./public/screenshots/resultview.png)
+![Movie Output View](./public/screenshots/resutlview.png)
 ## Challenges
 During devlopment, I faced several challenges:
 - Understanding how embeddings and vector search work.
